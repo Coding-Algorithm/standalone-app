@@ -51,23 +51,23 @@ const comments = [
 const users = [
 	{
 		id: "1",
-		name: "Tony Stack"
+		name: "Tony Stack",
 	},
 	{
 		id: "2",
-		name: "Natasha Romanova"
+		name: "Natasha Romanova",
 	},
 	{
 		id: "3",
-		name: "Thor Odinson"
+		name: "Thor Odinson",
 	},
 	{
 		id: "4",
-		name: "Steve Rogers"
+		name: "Steve Rogers",
 	},
 	{
 		id: "5",
-		name: "Bruce Banner"
+		name: "Bruce Banner",
 	},
 ];
 
@@ -78,12 +78,14 @@ const posts = [
 		createdAt: "",
 		post: "I am a sample post 1",
 		author: "1",
-	},	{
+	},
+	{
 		id: "2",
 		createdAt: "",
 		post: "I am a sample post 2",
 		author: "1",
-	},	{
+	},
+	{
 		id: "3",
 		createdAt: "",
 		post: "I am a sample post 3",
@@ -99,6 +101,7 @@ const replies = [
 		commenter: "1",
 		reply:
 			"Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu.",
+		createdAt: "",
 	},
 	{
 		id: "2",
@@ -106,13 +109,15 @@ const replies = [
 		commenter: "2",
 		reply:
 			"Consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu.",
+		createdAt: "",
 	},
-    {
+	{
 		id: "3",
 		commentId: "1",
 		commenter: "2",
 		reply:
 			"Consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu.",
+		createdAt: "",
 	},
 ];
 
